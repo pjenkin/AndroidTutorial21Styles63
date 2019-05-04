@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- my own style -->
+    <style name="LightBlue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#efefef</item>
+         <item name="android:background">#006699</item>
+        <!-- <item name="android:background">#ff0000</item> -->
+    </style>
+
+    <!-- This style is inheriting from a style of my own, so use dot notation -->
+    <style name="LightBlue.BigBlue">        <!-- BigBlue inheriting from LightBlue -->
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <!-- this style is inheriting from android system style, so use 'parent' attribute -->
+    <style name="PNJSystemDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">#efefef</item>
+    </style>
+</resources>
