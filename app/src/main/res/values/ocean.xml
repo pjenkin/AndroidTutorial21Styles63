@@ -19,4 +19,12 @@
     <!--<style name="PNJSystemDark" parent="Theme.AppCompat.Light.DarkActionBar">-->
         <!--<item name="android:textColor">#efefef</item>-->
     <!--</style>-->
+    
+    
+    <color name="app_bg_color">#009900</color>  <!-- try to avoid colour name in style in case of change -->
+
+    <style name="PNJTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@color/app_bg_color</item> <!-- use own colour in theme -->
+    </style>
+
 </resources>
