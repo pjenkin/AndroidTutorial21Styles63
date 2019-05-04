@@ -9,7 +9,6 @@
     tools:showIn="@layout/activity_main">
 
     <EditText
-        style="@style/LightBlue"
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,9 +20,9 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <!--style="@style/LightBlue"-->
 
     <EditText
-        style="@style/LightBlue"
         android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,9 +34,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
-<!-- Inheriting from my own style (so not needing parent attribute) -->
+    <!--style="@style/LightBlue"-->
+
+
+    <!-- Inheriting from my own style (so not needing parent attribute) -->
     <EditText
-        style="@style/LightBlue.BigBlue"
         android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,4 +50,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
+    <!--style="@style/LightBlue.BigBlue"-->
+
+
 </android.support.constraint.ConstraintLayout>
